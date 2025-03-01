@@ -1,0 +1,14 @@
+.avatar-section{
+    display: flex;
+}
+.avatar-section img{
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.avatar-section h3{
+    font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 15px;
+}
