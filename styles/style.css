@@ -4,21 +4,49 @@
     --Gray-500: hsl(0, 0%, 42%);
     --Gray-950: hsl(0, 0%, 7%);
 }
-.seccion img {
-    border-radius: 5%;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: var(--Yellow);
+    margin: 0;
+    font-family: 'Figtree', sans-serif;
+}
+.contenedor {
+    position: relative;
+    width: 80%;
+    max-width: 390px;
+}
+.cuerpo1{
+    position: relative;
+    z-index: 1;
+    background: var(--White);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 5px 5px var(--Gray-950);
+    border: 1px solid;
+}
+.seccion32 img{
+    width: 100%;
+    border-radius: 10px;
+}
+.button-section{
+    margin: 20px 0px;
 }
 .button-section button{
-    height: 22px;
-    margin: 10px 10px;
     background: var(--Yellow);
-    border: 0;
-    border-radius: 10%;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 5px;
+    font-weight: 800;
+}
+.description{
+    
 }
 .description h3{
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
+    color: var(--Gray-500);
+    font-size: 14px;
 }
 .description h2{
     font-family: "Inter", sans-serif;
@@ -27,21 +55,18 @@
     font-style: normal;
 }
 .description p{
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
     color: var(--Gray-500);
+    font-size: 16px;
 }
 .avatar-section{
     display: flex;
+    align-items: center;
 }
 .avatar-section img{
-    padding-left: 10px;
-    padding-right: 20px;
+    align-items: center;
+    gap: 10px;
 }
 .avatar-section h3{
-    font-family: "Figtree", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
-  font-size: 15px;
+    font-weight: 800;
+    padding: 10px;
 }
